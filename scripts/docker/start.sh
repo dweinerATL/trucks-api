@@ -21,7 +21,7 @@ php artisan migrate
 
 erubis /var/www/config_templates/nginx.conf.erb > /etc/nginx/sites-available/default
 
-chown -R www-data:www-data /var/www/
+chown -R www-data:www-data /var/www/trucks-app
 
 /usr/sbin/php-fpm8.3 --fpm-config /etc/php/8.3/fpm/php-fpm.conf -c /etc/php/8.3/fpm/php.ini --nodaemonize &
 pids=$!
