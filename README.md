@@ -62,7 +62,7 @@ Each of these endpoints requires the `search` query parameter, as wildcard and e
 
 if the `status` parameter is not included in the search, then `approved` will be used.
 
-For example, to search for pizza, the url would be `http://localhost/api/v1/find/cuisine?search=pizza`.  If for some reason you wanted to search for food trucks that served pizza but their license has been suspended, append `&status=suspend`, which would make the complete url `http://localhost/api/v1/find/cuisine?search=pizza&status=suspend`.
+For example, to search for pizza, the url would be `http://localhost/api/v1/find/cuisine?search=noodles`.  If for some reason you wanted to search for food trucks that served pizza but their license has been suspended, append `&status=suspend`, which would make the complete url `http://localhost/api/v1/find/cuisine?search=tacos&status=suspend`.
 
 If you wish to do search for a phrase, you will have to url encode the value.  For example, `italian%20hogie`.  Searches are not case sensitive and do not support any boolean operations such as `and` and `or`
 
