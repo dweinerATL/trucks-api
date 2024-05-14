@@ -1,5 +1,5 @@
 {
-    "name": "dweinerATL/trucks-api",
+    "name": "dweineratl/trucks-api",
     "type": "project",
     "description": "Query the San Francisco Food Truck data.",
     "keywords": ["food truck", "api"],
